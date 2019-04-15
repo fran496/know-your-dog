@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Chewy|PT+Sans:400,700');
 
 :root {
-  --dominant-color: #dd1c1a;
-  --accent-color: #1bde58;
-  --bg-color: #fff;
+  --dominant-color: #efcb68;
+  --accent-color: #48e5c2;
+  --bg-color: #fcfaf9;
+  --header-color: #fffce8;
+  --nav-color: #160c28;
 }
 
 * {
@@ -23,9 +25,9 @@ header {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
+  color: var(--dominant-color);
   font-family: Chewy, cursive;
-  color: #fff;
   margin: 0;
 }
 
@@ -41,7 +43,7 @@ strong {
 nav {
   padding: 20px;
   width: 100%;
-  background: #3e363f;
+  background: var(--nav-color);
 }
 
 main {
