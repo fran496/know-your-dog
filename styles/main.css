@@ -1,19 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Chewy|PT+Sans:400,700');
 
+:root {
+  --dominant-color: #dd1c1a;
+  --accent-color: #1bde58;
+  --bg-color: #fff;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  background-color: #fff;
+  background-color: var(--bg-color);
   padding: 0 10px;
 }
 
 header {
   padding: 20px;
-  color: #fff;
-  background-color: #ff1e29;
+  color: var(--dominant-color);
+  background-color: var(--bg-color);
   text-align: center;
 }
 
@@ -26,15 +32,16 @@ h1, h2, h3, h4, h5, h6 {
 p {
   background-color: #fafafa;
   font-family: "PT Sans", sans-serif;
-  font-weight: bold;
-  border: 1px solid black;
 }
 
+strong {
+  color: var(--accent-color);
+}
 
 nav {
   padding: 20px;
   width: 100%;
-  background: #211c1c;
+  background: #3e363f;
 }
 
 main {
