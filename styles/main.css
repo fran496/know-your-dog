@@ -1,37 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Chewy|PT+Sans:400,700');
 
 * {
-  border-style: border-box;
-}
-
-html {
-  background-color: #ddd;
-  margin: 0 auto;
-  width: 800px;
+  box-sizing: border-box;
 }
 
 body {
+  margin: 0;
   background-color: #fff;
   padding: 0 10px;
 }
 
-
 header {
+  padding: 20px;
   color: #fff;
   background-color: #ff1e29;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: Chewy, cursive;
+  color: #fff;
   margin: 0;
 }
 
+p {
+  background-color: #fafafa;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+
 nav {
-  position: fixed;
-  height: 50px;
+  padding: 20px;
   width: 100%;
   background: #211c1c;
 }
 
 main {
-  padding-top: 50px;
+  padding: 20px;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 50%;
+  height: 400px;
+}
+
+.dog-image {
+  border-radius: 5%;
 }
