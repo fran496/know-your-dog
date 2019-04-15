@@ -3,6 +3,35 @@
   border-style: border-box;
 }
 
-body {
+html {
+  background-color: #ddd;
   margin: 0 auto;
+  width: 800px;
+}
+
+body {
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+
+header {
+  color: #fff;
+  background-color: #ff1e29;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background: #211c1c;
+}
+
+main {
+  padding-top: 50px;
 }
