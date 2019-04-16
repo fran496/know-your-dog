@@ -42,26 +42,9 @@ h2 {
   margin: 0;
 }
 
-p {
-  padding: 20px;
-  border-radius: 5px;
-  color: #fff;
-  background-color: var(--accent-color);
-  font-family: "PT Sans", sans-serif;
-}
 
 main {
   padding: 20px;
-}
-
-.inline-block {
-  display: inline-block;
-  width: 50%;
-  height: 400px;
-}
-
-.dog-image {
-  border-radius: 5px;
 }
 
 footer {
@@ -69,4 +52,14 @@ footer {
   text-align: center;
   background-color: #fff;
   color: var(--dominant-color);
+}
+
+.background-dog {
+  text-align: center;
+  color: var(--accent-color);
+  width: 100%;
+  height: 1000px;
+  background-image: url(../images/shiba-inu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
