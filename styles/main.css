@@ -2,7 +2,7 @@
 
 :root {
   --dominant-color: #F55651;
-  --accent-color: #B52E2A;
+  --accent-color: #23693B;
   --bg-color: #CFA997;
   --nav-color: #692523;
 }
@@ -13,7 +13,6 @@
 
 body {
   margin: 0;
-  padding: 0 10px;
   background-color: #CFA997;
 }
 
@@ -24,8 +23,21 @@ header {
   background-color: #fff;
 }
 
+nav {
+  padding: 20px;
+  height: 100px;
+  width: 100%;
+  background-color: var(--nav-color);
+}
+
 h1 {
   font-size: 50px;
+  font-family: Chewy, cursive;
+  margin: 0;
+}
+
+h2 {
+  font-size: 25px;
   font-family: Chewy, cursive;
   margin: 0;
 }
@@ -36,12 +48,6 @@ p {
   color: #fff;
   background-color: var(--accent-color);
   font-family: "PT Sans", sans-serif;
-}
-
-nav {
-  padding: 20px;
-  width: 100%;
-  background-color: var(--nav-color);
 }
 
 main {
@@ -56,4 +62,11 @@ main {
 
 .dog-image {
   border-radius: 5px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  color: var(--dominant-color);
 }
