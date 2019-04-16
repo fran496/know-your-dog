@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Chewy|PT+Sans:400,700');
 
 :root {
-  --dominant-color: #efcb68;
-  --accent-color: #48e5c2;
-  --bg-color: #fcfaf9;
-  --header-color: #fffce8;
-  --nav-color: #160c28;
+  --dominant-color: #F55651;
+  --accent-color: #B52E2A;
+  --bg-color: #CFA997;
+  --nav-color: #692523;
 }
 
 * {
@@ -14,19 +13,18 @@
 
 body {
   margin: 0;
-  background-color: var(--bg-color);
   padding: 0 10px;
+  background-color: #CFA997;
 }
 
 header {
-  padding: 20px;
   color: var(--dominant-color);
-  background-color: var(--bg-color);
+  padding: 20px;
   text-align: center;
+  background-color: #fff;
 }
 
 h1, h2 {
-  color: var(--dominant-color);
   font-family: Chewy, cursive;
   margin: 0;
 }
@@ -36,14 +34,10 @@ p {
   font-family: "PT Sans", sans-serif;
 }
 
-strong {
-  color: var(--accent-color);
-}
-
 nav {
   padding: 20px;
   width: 100%;
-  background: var(--nav-color);
+  background-color: var(--nav-color);
 }
 
 main {
