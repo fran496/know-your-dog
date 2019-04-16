@@ -24,19 +24,21 @@ header {
 }
 
 nav {
-  padding: 20px;
-  height: 100px;
+  padding: 5px 20px;
+  height: 50px;
   width: 100%;
   background-color: var(--nav-color);
   -webkit-transition: height .5s;
 }
 
 nav:hover {
-  height: 200px;
+  height: 150px;
   -webkit-transition: height 1s;
 }
 
 .corgi-face {
+  min-width: 25px;
+  min-height: 25px;
   max-width: 100%;
   max-height: 100%;
   border-radius: 50%;
