@@ -36,7 +36,9 @@ nav:hover {
   -webkit-transition: height 1s;
 }
 
-.corgi-face {
+.small-dog {
+  display: inline-block;
+  margin-left: 20px;
   min-width: 25px;
   min-height: 25px;
   max-width: 100%;
