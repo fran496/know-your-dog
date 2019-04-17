@@ -63,14 +63,6 @@ h2 {
   margin: 0;
 }
 
-footer {
-  padding: 20px;
-  text-align: center;
-  background-color: #fff;
-  color: var(--dominant-color);
-}
-
-
 .background-dog {
   text-shadow: 1px 1px 2px black;
   width: 100%;
@@ -88,9 +80,24 @@ footer {
   background-size: 100%;
 }
 
+.introductory-text {
+  cursor: pointer;
+}
+
+.introductory-text:hover {
+  border: 2px dashed var(--dominant-color);
+}
+
 p {
   text-shadow: 1px 1px 2px black;
   font-size: 30px;
   color: #fff;
   font-family: Chewy, cursive;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  color: var(--dominant-color);
 }
