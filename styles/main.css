@@ -70,14 +70,14 @@ h2 {
   border-bottom: 5px solid var(--nav-color);
   text-align: center;
   color: #fff;
-  background-image:  
-  linear-gradient(
-      rgba(0,0,0,0.7),
-      rgba(0,0,0,0.7)
-      ),
-  url(../images/corgi-background.jpg);
+  background-image: url(../images/corgi-background.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.background-tinted {
+  background-color: rgba(0,0,0,0.7);
+  background-blend-mode: multiply;
 }
 
 .introductory-text {
