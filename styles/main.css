@@ -36,6 +36,10 @@ nav:hover {
   -webkit-transition: height 1s;
 }
 
+nav .small-dog:hover {
+  border: 3px solid var(--accent-color);
+}
+
 .small-dog {
   display: inline-block;
   margin-left: 20px;
@@ -89,7 +93,7 @@ h2 {
 }
 
 p {
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px #000;
   font-size: 30px;
   color: #fff;
   font-family: Chewy, cursive;
