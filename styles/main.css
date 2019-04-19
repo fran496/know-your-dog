@@ -13,7 +13,7 @@
 
 body {
   margin: 0;
-  background-color: #CFA997;
+  background-color: #cfa997;
 }
 
 header {
@@ -36,11 +36,11 @@ nav:hover {
   -webkit-transition: height 1s;
 }
 
-nav .small-dog:hover {
+nav .dog-face:hover {
   border: 3px solid rgba(0,0,0,.1);
 }
 
-.small-dog {
+.dog-face {
   display: inline-block;
   margin-left: 20px;
   min-width: 40px;
@@ -99,11 +99,11 @@ h2 {
   background-blend-mode: multiply;
 }
 
-.introductory-text {
+#introductory-text {
   cursor: pointer;
 }
 
-.introductory-text:hover {
+#introductory-text:hover {
   border: 2px dashed var(--dominant-color);
 }
 
